@@ -1,0 +1,44 @@
+.image-grid {
+    color: black;
+}
+
+.article-list {
+    color: black;
+}
+
+.link-box {
+    color: black;
+}
+
+#social{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    li {
+        margin-right: 20px;
+    }
+}
+#articles{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+      
+    li {
+        margin-right: 20px;
+    }
+    a {
+        text-decoration: none;
+        margin-right: 20px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        /* color: white; */
+    }
+}
