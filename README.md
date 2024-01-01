@@ -31,10 +31,11 @@ export default {
 
 ## Approach
 
-1. Created an html page (rough_layout.html) to build a basic layout. Tried to structure elements using div tags. Now, I'll try to map these div tags onto React components.
+1. Created an html page (rough_layout.html) to build a basic layout. Tried to structure elements using div tags. Mapped these div tags onto React components.
+2. Following the React Router Tutorial to add client-side routing capabilities.
 
 ## Problems
 1. Moving the file is not automatically triggering the change of path of the file in the import statements of another file.
+2. The compiler is not detecting react components defined in .js or .jsx files, even after importing the corresponding .js/.jsx file, the error won't go away.
 
 ## Solve/To Do
-1. Navbar need not be reloaded for every routing. It should be constant throught the app.
